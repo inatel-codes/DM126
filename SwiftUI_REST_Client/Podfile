@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '14.0'
+
+target 'SwiftUI_REST_Client' do
+  use_frameworks!
+
+  pod 'Alamofire', '~> 5.2'
+end
